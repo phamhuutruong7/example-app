@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
         <title>This is example app</title>
 
         <!-- Fonts -->
@@ -21,6 +22,62 @@
         </style>
     </head>
     <body class="antialiased">
-        
+        <div class="bar md:text-base sm:text-sm">
+            <ul class="p-5">
+                <a class="p-3 lg:text-2xl" href="#">Events</a>
+                <a class="p-3 lg:text-2xl" href="#">Results</a>
+                <a class="p-3 lg:text-2xl" href="#">Partnering Restaurants</a>
+            </ul>
+        </div>
+        <div class="intro h-60 md:h-56 pt-20">
+            <h1 class="title h-16 text-center p-5 xs:text-sm md:text-xl lg:text-4xl">South Village Run Club</h1>
+        </div>
+        <div class="summary h-auto p-5 b-5 flex flex-col">
+            <h2 class="sm:text-2xl md:text-3xl" style="color:yellow">Meet up. Work out. Celebrate.</h2>
+            <p class="sm:text-xl md:text-2xl text-white">Come join our vibrant community whose focus is training hard and enjoying local post-workout cuisine - guilt-free!</p>
+            <p class="sm:text-xl md:text-2xl text-white">South Village Run Club is a free MeetUp group sponsored by <a href="#" class="underline" style="color:blue">City Shoes</a>.</p>
+        </div>
+        <div class="photos lg:flex ">
+            <div >
+                <img class="p-3" src="{{ asset('img/pic1.jpg') }}" alt="">
+            </div>
+            <div >
+                <img class="p-3" src="{{ asset('img/pic2.jpg') }}" alt="">
+            </div>
+            <div >
+                <img class="p-3" src="{{ asset('img/pic3.jpg') }}" alt="">
+            </div>    
+        </div>
+        <div class="testimonial flex pt-8 pb-8">
+            <div class="w-full h-auto pt-8  pb-8" style="background-color:#008080">
+                <h1 class="lg:text-5xl md:text-3xl sm:text-xl  p-4" style="color:yellow">"I build my weeknight plans around their events. I can exercise and meet new people every week!"</h1>
+                <p class="lg:text-xl md:text-2xl sm:text-lg p-4" style="color:yellow">-Bryce R. - financial advisor/frequent runner since 2018</p>
+            </div>
+        </div>
+        <div class="photos lg:flex ">
+            <div>
+                <img class="p-3" src="{{ asset('img/pic4.jpg') }}" alt="">
+            </div>
+            <div>
+                <img class="p-3" src="{{ asset('img/pic5.jpg') }}" alt="">
+            </div>
+            <div>
+                <img class="p-3" src="{{ asset('img/pic6.jpg') }}" alt="">
+            </div>
+        </div>
+        <div class="meetup p-6">
+            <h1 class="text-center sm:text-2xl md:text-4xl" style="color:yellow">Come join the fun!</h1>
+            <div class="flex justify-center md:pl-60 md:pr-60">
+                <img class="" src="{{ asset('img/pic7.jpg') }}" alt="">
+            </div>
+            <h1 class="text-center sm:text-2xl md:text-4xl" style="color:yellow">We meet every evening in the city square at 7PM!</h1>
+        </div>
+        <div class="bar md:text-base sm:text-sm">
+            <ul class="p-5">
+                <a class="p-3 lg:text-2xl" href="#">Events</a>
+                <a class="p-3 lg:text-2xl" href="#">Results</a>
+                <a class="p-3 lg:text-2xl" href="#">Partnering Restaurants</a>
+            </ul>
+        </div>
     </body>
 </html>
